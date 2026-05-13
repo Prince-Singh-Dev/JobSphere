@@ -6,7 +6,7 @@ Designed to simulate a real-world hiring ecosystem with clean user experience an
 
 ---
 
-# 📌 About The Project
+#  About The Project
 
 **JobSphere** is a complete recruitment management platform that connects **job seekers**, **recruiters**, and **administrators** in one centralized system.
 
@@ -14,7 +14,7 @@ The platform allows users to explore job opportunities, apply online, track appl
 
 ---
 
-# ✨ Features
+#  Features
 
 ## 👨‍💼 User Features
 - User Authentication & Authorization
@@ -41,7 +41,7 @@ The platform allows users to explore job opportunities, apply online, track appl
 
 ---
 
-# 🧑‍💻 Tech Stack
+#  Tech Stack
 
 ## Frontend
 - React.js
@@ -62,7 +62,7 @@ The platform allows users to explore job opportunities, apply online, track appl
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 JobSphere/
@@ -87,7 +87,7 @@ JobSphere/
 
 ---
 
-# 🚀 Installation & Setup
+#  Installation & Setup
 
 ## Clone Repository
 
