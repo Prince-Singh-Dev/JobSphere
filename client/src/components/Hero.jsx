@@ -20,6 +20,19 @@ const Hero = () => {
                 <button className='bg-blue-600 px-6 py-2 rounded text-white m-1'>Search</button>
             </div>
         </div>
+
+        <div className='border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md flex'>
+            <div className='flex justify-center gap-10 lg:gap-16 flex-wrap' >
+                <p className='font-medium'>Trusted By</p>
+                <img className='h-6' src={assets.microsoft_logo} alt="Company 1" />
+                <img className='h-6' src={assets.walmart_logo} alt="Company 2" />
+                <img className='h-6' src={assets.accenture_logo} alt="Company 3" />
+                <img className='h-6' src={assets.samsung_logo} alt="Company 4" />
+                <img className='h-6' src={assets.amazon_logo} alt="Company 5" />
+                <img className='h-6' src={assets.adobe_logo} alt="Company 6" />
+            </div>
+        </div>
+
     </div>
   )
 }
