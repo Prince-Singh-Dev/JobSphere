@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
-import { assets } from '../assets/assets'
+import { assets, JobCategories } from '../assets/assets'
 
 const JobListing = () => {
 
@@ -24,7 +24,7 @@ const JobListing = () => {
                                 </span>
                             )}
                             {searchFIlter.location && (
-                                <span className='inline-flex items-center gap-2.5 bg-red-50 border border-red-200 px-4 py-1.5 rounded'>
+                                <span className='ml-2 inline-flex items-center gap-2.5 bg-red-50 border border-red-200 px-4 py-1.5 rounded'>
                                     {searchFIlter.location}
                                     <img onClick={ e => setSearchFilter(prev => ({...prev,location:""})) } className='cursor-pointer' src={assets.cross_icon} alt="" />
                                 </span>
@@ -33,6 +33,21 @@ const JobListing = () => {
                     </>
                 )
             }
+
+            {/* Category Filter */}
+            <div className='max-lg:hidden'>
+                <h4 className='font-medium text-lg py-4'>Search by Categories</h4>
+                <ul className='space-y-4 text-gray-600'>
+                    {
+                        JobCategories.map((category,index)=>(
+                            <li className='flex gap-3 items-center' key={index}>
+                                <input className='sacle-125' type="checkbox" name='' id='' />
+                                {category}
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
 
         </div>
     </div>
