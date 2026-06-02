@@ -51,7 +51,7 @@ const JobListing = () => {
 
             {/* Location Filter */}
             <div className='max-lg:hidden'>
-                <h4 className='font-medium text-lg py-4'>Search by Location</h4>
+                <h4 className='font-medium text-lg py-4 pt-14'>Search by Location</h4>
                 <ul className='space-y-4 text-gray-600'>
                     {
                         JobLocations.map((location,index)=>(
@@ -63,8 +63,16 @@ const JobListing = () => {
                     }
                 </ul>
             </div>
-
         </div>
+
+        {/*Job Listing*/}
+        <section className='w-full lg:w-3/4 text-gray-800 max-lg:px-4'>
+            <h3  className='font-medium text-3xl py-2' id='job-list'>Latest Jobs</h3>
+            <p className='mb-8'>Get your Desired job from our curated selection</p>
+            <div className='grid grid-cols-1 sm:grid-col-2 xl:grid-cols-3 gap-4'>
+                    
+            </div>
+        </section>
     </div>
   )
 }
