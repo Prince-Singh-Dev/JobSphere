@@ -5,7 +5,7 @@ export const AppContext = createContext()
 
 export const AppContextProvider = (props) => {
 
-    const [searchFIlter , setSearchFilter] = useState({
+    const [searchFilter , setSearchFilter] = useState({
         title:'',
         location:''
     })
@@ -24,7 +24,7 @@ export const AppContextProvider = (props) => {
     },[])
 
     const value = {
-        setSearchFilter, searchFIlter, 
+        setSearchFilter, searchFilter, 
         setIsSearched, isSearched,
         jobs,setJobs
     }
