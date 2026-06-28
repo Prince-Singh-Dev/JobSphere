@@ -1,7 +1,7 @@
 
 // Get User data
-export const getUserData = async(res,res) => {
-    
+export const getUserData = async(req,res) => {
+
 }
 
 // Apply for a job
