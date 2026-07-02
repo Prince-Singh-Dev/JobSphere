@@ -106,7 +106,9 @@ export const AppContextProvider = (props) => {
         showRecruiterLogin , setShowRecruiterLogin,
         companyData , setCompanyData,
         companyToken , setCompanyToken,
-        backendUrl
+        backendUrl , 
+        userData , setUserData ,
+        userApplications , setUserApplications
     }
 
     return (<AppContext.Provider value={value}>
